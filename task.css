@@ -33,7 +33,7 @@ body{
 }
 .ic li{
     list-style-type: none;
-    border: 1px solid #D8B9C3;
+    border: 1px solid #000;
     border-radius: 16px;
     height: 58px;
     width: 56px;

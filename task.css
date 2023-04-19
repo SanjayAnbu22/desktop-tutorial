@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    position: fixed;
+    left: 277px;
+    top: 0px;
+    width: calc(100% - 345px);
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-bottom: 1px solid blueviolet;
+}
+.header h1{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+}
+.profile ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 10px;
+}
+.ic li{
+    list-style-type: none;
+    border: 1px solid #D8B9C3;
+    border-radius: 16px;
+    height: 58px;
+    width: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.dot{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 10px;
+    top: 0px;
+    right: -2px;
+}
+img{
+    height: 25px;
+    width: 25px;
+    
+}
+.ic li:last-child{
+    padding: 0px;
+}
+.navi{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: calc(100% - 4px);
+    width: 275px;
+    border-right: 1px solid #000;
+}
+.logo{
+    display: flex;
+    height: 125px;
+    color: #363062;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid red;
+
+}
+.menu li{
+    list-style-type: none;
+    font-family:'Poppins';
+    font-size: 16px;
+    padding: 22px;
+    margin-top: 8px;
+
+}
+.menu li:hover{
+    cursor: pointer;
+    background-color:#EEEEEE;
+    color:#363062;
+    border-radius: 9px;
+}
+.menu h1{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.body{
+    position: fixed;
+    top: 170px;
+    left: 300px;
+    width: calc(100% - 310px);
+height: 151px;
+border: 1px solid black;
+
+}
+.card1{
+position: absolute;
+width: 239px;
+height: 151px;
+background: linear-gradient(258.22deg, rgb(177, 84, 218)  3.37%,  rgb(177, 84, 218)   3.38%,  rgb(177, 84, 218)   96.49%);
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+}
+.card2{
+    left: 250px;
+position: absolute;
+width: 239px;
+height: 151px;
+background: linear-gradient(258.22deg, rgb(61, 165, 35)  3.37%,  rgb(61, 165, 35)  3.38%,  rgb(61, 165, 35)  96.49%);
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+}
+.card3{
+    left: 505px;
+position: absolute;
+width: 239px;
+height: 151px;
+background: linear-gradient(258.22deg, rgb(148, 44, 117)  3.37%,  rgb(148, 44, 117)  3.38%,  rgb(148, 44, 117)  96.49%);
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+}
+
+ .card4{
+    left: 760px;
+position: absolute;
+width: 239px;
+height: 151px;
+background: linear-gradient(258.22deg, rgb(61, 165, 35)  3.37%,  rgb(61, 165, 35)  3.38%,  rgb(61, 165, 35)  96.49%);
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+} 
+
+
